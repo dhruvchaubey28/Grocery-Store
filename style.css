@@ -60,7 +60,7 @@ nav ul li a {
     background-color: #007bff;
     color: #fff;
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 .btn:hover {
@@ -74,4 +74,22 @@ nav ul li a {
     position: absolute; /* Position absolutely */
     top: 10px; /* Adjust top position */
     left: 20px; /* Adjust left position */
+}
+
+footer {
+    background-color: #333;
+    color: #FFF;
+    text-align: center;
+    padding: 0.1%;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+@keyframes fadeOut {
+    0% { opacity: 1; }
+    100% { opacity: 0; }
+}
+
+.fade-out {
+    animation: fadeOut 0.5s ease forwards;
 }
